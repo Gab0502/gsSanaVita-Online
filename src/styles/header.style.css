@@ -1,0 +1,12 @@
+header {
+  padding: 15px;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  width: 150px;
+}/*# sourceMappingURL=header.style.css.map */
