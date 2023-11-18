@@ -1,36 +1,40 @@
 .flex-generic {
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 
 .projeto {
   border: 1px solid 0;
   width: 60%;
-  background-color: blue;
   display: flex;
   flex-wrap: wrap;
+  margin: 10px;
 }
 .projeto img {
   width: 100%;
-  border: 1px solid salmon;
 }
 .projeto button {
   margin-left: auto;
   margin-top: 15px;
-  background-color: green;
+}
+
+.imgName {
+  width: 30% !important;
 }
 
 .infos {
-  background-color: red;
   width: 40%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .infos article {
+  margin: 7px;
   padding: 15px;
   width: 100%;
-  border: 1px solid black;
+}
+.infos article h1 {
+  font-size: 25px;
 }
 
 .row {
@@ -48,7 +52,7 @@
 }
 
 .imgSm {
-  width: 33%;
+  width: 50%;
 }
 
 .card {

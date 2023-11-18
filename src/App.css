@@ -1,5 +1,57 @@
+@font-face {
+  font-family: 'montSerrat';
+  src: url('/src/assets/font/Montserrat-Regular.otf');
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'montSerrat';
+}
+
+.bg-azul{
+    background-color: #213468;
+}
+.bg-verde{
+  background-color: rgb(43, 149, 153);
+}
+.bg-cinza{
+  background-color: #DDDDDD;
+}
+.bg-cinza2{
+  background-color: #bfbdbd;
+}
+.bg-roxoEscuro{
+  background-color: #A49BE4;
+}
+.bg-roxoClaro{
+  background-color: #e0b2ff;
+}
+.bg-branco{
+  background-color: #FFFBFA;
+}
+.bg-laranjaClaro{
+  background-color: #FFE289 ;
+}
+.bg-laranjaEscuro{
+  background-color: #F8A54E ;
+}
+.texto-roxoEscuro {
+  color: #A49BE4; 
+}
+
+.texto-roxoClaro {
+  color: #E9C8FF; 
+}
+
+.texto-branco {
+  color: #FFFBFA; 
+}
+
+.texto-laranjaClaro {
+  color: #FFE289; 
+}
+
+.texto-laranjaEscuro {
+  color: #F8A54E; 
 }

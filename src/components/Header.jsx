@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
         <header class="navbar">
-            <img src="src\assets\genericIcon.png" alt="" className='brand'/>
+            <img src="src\assets\SANA.png" alt="" className='brand'/>
             <a href="">login</a>
         </header>
     </>
