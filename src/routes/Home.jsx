@@ -32,7 +32,7 @@ A SanaVita simplificará a gestão da saúde, centralizando resultados de exames
                     </article>
                 </section>
             </section>
-            <h1>VANTANGES</h1>
+            <h1>VANTAGENS</h1>
             <section className="row">
                 <article className="row">
                     <img src="src\assets\Online Doctor-rafiki.svg" alt="" className="imgSm"/>

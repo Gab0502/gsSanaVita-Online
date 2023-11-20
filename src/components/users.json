@@ -1,0 +1,70 @@
+{
+    "user": {
+      "debTeixeira@yahoo.com": {
+        "id":"278",
+        "senha": "memoria1964",
+        "nome": "Debora Christina Teixeira Pinheiro",
+        "foto": "perfilDebora.jpg",
+        "plano": "hapvida",
+        "status": "p",
+        "visitas": {
+          "01/11/2023": {
+            "local": "Hospital ABC",
+            "descricao": "Consulta com Dr. Silva, exame de sangue",
+            "resultado": "Resultados disponiveis no SanaVita"
+          },
+          "15/11/2023": {
+            "local": "Clínica Radiológica XYZ",
+            "descricao": "Realização de exame de ressonância magnética",
+            "resultado": "Resultados disponíveis em 3 dias"
+          },
+          "05/10/2023": {
+            "local": "Consultório Dr. Pereira",
+            "descricao": "Acompanhamento mensal para controle de pressão",
+            "receita": "Nova receita médica disponível para retirada"
+          }
+        },
+        "resultados":{
+            "01/12/2023":{
+                "nome":"Hemograma",
+                "link":"hemoDeb.pdf"
+            }
+        }
+
+    },
+      "marialurdes@gmail.com": {
+        "id": "379",
+        "senha": "pgomez2000",
+        "nome": "Maria Lurdes da Silva",
+        "foto": "perfilLurdes.jpg",
+        "plano": "hapvida",
+        "status": "p",
+        "visitas": {
+          "10/12/2023": {
+            "local": "Clínica Saúde Total",
+            "descricao": "Consulta de rotina com Dr. Souza",
+            "resultado": "Aguardando análise médica"
+          }
+        },
+        "resultados": {
+            "nda" : "nada disponivel no momento"
+        }
+      },
+      "rodrigoPereira@saoLuis.com.br":{
+        "id":"778",
+        "senha": "DRrodripe",
+        "nome" : "Rodrigo Pereira de Souza",
+        "foto" : "perfilRodrigo.jpg",
+        "status": "d",
+        "pacientes": {
+          "25/11/2023":"278"
+        }
+      },
+      "hospitalSluis@saoLuis.com.br":{
+        "senha":"admin123",
+        "foto": "hospital.png",
+        "status":"h"
+      }
+    }
+  }
+  

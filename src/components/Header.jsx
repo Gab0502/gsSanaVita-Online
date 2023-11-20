@@ -1,12 +1,17 @@
 import { useState } from 'react'
+import { Link,useNavigate } from 'react-router-dom';
 import "../styles/header.style.css"
 function Header() {
 
   return (
     <>
         <header class="navbar">
-            <img src="src\assets\SANA.png" alt="" className='brand'/>
-            <a href="">login</a>
+            <Link to="/"><img src="src\assets\SANA.png" alt="" className='brand'/></Link>
+            <div>
+              <Link to="/login">Login</Link>
+
+            </div>
+            
         </header>
     </>
   )

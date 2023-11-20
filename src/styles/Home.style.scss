@@ -5,8 +5,8 @@
 .projeto{
     border: 1px solid red($color: #000000);
     width: 60%;
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;    
+    flex-direction: column;
     margin: 10px;
     img{
         width: 100%;
@@ -22,8 +22,7 @@
 .infos{
     width: 40%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     article{
         margin: 7px;
         padding: 15px;
@@ -35,7 +34,6 @@
 }
 .row{
     display: flex;
-    flex-direction: row;
     // aumentar tamanho de fonte
     h1{
         margin: 10px;

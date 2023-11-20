@@ -1,4 +1,8 @@
 footer {
-  background-color: green;
   height: 25px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=footer.style.css.map */
