@@ -5,7 +5,7 @@ function Home() {
 
   return (
     <>
-        <main className="bg-cinza">
+        <main className="">
             <section className="flex-generic">
                 <section className="projeto">
                     <img src="src\assets\stockExam.jpg"></img>
@@ -15,7 +15,7 @@ function Home() {
                     </div>
                     <button>Mais infos</button>
                 </section>
-                <section className="infos bg-cinza">
+                <section className="infos">
                     <article className="">
                         <h1 className="texto-laranjaEscuro">O que é a solução</h1>
                         <p className="">
@@ -26,7 +26,7 @@ A SanaVita é uma plataforma de gestão de saúde inovadora, unificando resultad
                         <p className="">
 A SanaVita simplificará a gestão da saúde, centralizando resultados de exames, históricos médicos, consultas e visitas a instituições de saúde em uma plataforma digital acessível. Além disso, ela possibilitará que médicos acessem facilmente o histórico completo de seus pacientes, promovendo uma abordagem mais integrada e personalizada nos cuidados de saúde. </p>
                     </article>
-                    <article className="bg-cinza">
+                    <article className="">
                         <h1 className="texto-laranjaEscuro">Como funcionará</h1>
                         <p className="">A SanaVita oferecerá uma experiência simples e integrada, unificando resultados de exames, históricos médicos e consultas em uma plataforma acessível. Médicos terão fácil acesso aos históricos de seus pacientes, permitindo uma abordagem personalizada nos cuidados de saúde. A interação entre médicos e pacientes será coordenada pelo hospital, que cadastrará os médicos na plataforma para garantir a segurança dos dados. Quando um médico for designado para um paciente, o hospital informará o sistema, autorizando o acesso apenas aos dados desse paciente, assegurando uma integração segura e privada.</p>
                     </article>

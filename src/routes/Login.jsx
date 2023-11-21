@@ -7,6 +7,7 @@ function Login() {
     usuario: '',
     senha: '',
   });
+  console.log(usuarios)
   // funções
   const handleChange = async (e) => {
     const { name, value } = e.target;
@@ -14,57 +15,55 @@ function Login() {
   };
 
   
-  const handleSubmit =async (e)=>{
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    let user;
-    try{
-      const response =await fetch("  http://localhost:5000/usuarios");
-      if(response.ok){
+  
+    try {
+      const response = await fetch("http://localhost:3000/user");
+      if (response.ok) {
         const users = await response.json();
-
-        //PERCORRENDO TODOS OS USUARIOS QUE ESTIVER NA LISTA DO JSON
-        for (let i =0; i <users.length;i++){
-          const use = users[i];
-          user =use;
-          //VALIDANDO OS DADOS
-          if(use.usuario == usuarios.usuario && use.senha== usuarios.senha){
-            user=use;
-            break;
-          }
+        console.log(users);
+        const foundUser = users[usuarios.usuario];
+        console.log("usuario",foundUser)
+        if (foundUser && foundUser.senha === usuarios.senha) {
+          const { senha, ...userDetails } = foundUser;
+          console.log("User Details:", userDetails);
+          console.log("oi")
+  
+          sessionStorage.setItem("usuarioLogado", JSON.stringify(userDetails));
+          const [usuarioLogado]=useState(JSON.parse(sessionStorage.getItem("usuarioLogado")));
+          console.log("user",usuarioLogado)
+  
+          setTimeout(() => {
+          }, 3000);
+        } else {
+          setTimeout(() => {
+            setUsuarios({
+              usuario: "",
+              senha: "",
+            });
+          }, 3000);
         }
-
-        if(user){
-          sessionStorage.setItem('usuarioLogado',JSON.stringify(user));
-          setTimeout(()=>{
-            window.location ='/';
-          },3000);
-
-        }else{
-        
-            setTimeout(()=>{
-              setUsuarios({
-                usuario:"",
-                senha:"",
-              });
-              window.location="/login";
-            },3000);
-        }
-      }else{
+      } else {
         setUsuarios({
-          usuario:"",
-          senha:"",
+          usuario: "",
+          senha: "",
         });
-        window.location="/login";
       }
-    }catch(error){
-      console.log(error)
+    } catch (error) {
+      console.error("Error during login:", error);
     }
-    };
+  };
+  
+  
 
   return (
     <>
+    <main className=''>
     <section className='central-box'>
+    <img src="src\assets\SANA.png" id="foto" alt="User Profile" />
+      
+      
       <div className='login'>
       <form onSubmit={handleSubmit}>
         <div>
@@ -81,18 +80,20 @@ function Login() {
         <div>
           <h2>Senha</h2>
           <input
-            type="passoword"
+            type="password"
             name="senha"
             value={usuarios.senha}
             placeholder="Digite sua senha"
             onChange={handleChange}
           />
         </div>
+        <img src="" alt="" />
 
         <button type="submit">Logar</button>
       </form>
       </div>
       </section>
+    </main>
     </>
   );
 }

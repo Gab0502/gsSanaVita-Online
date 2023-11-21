@@ -1,18 +1,22 @@
 .central-box{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    margin-bottom: 360px;
+    img{
+        width: 500px;
+    }
 }
 .login{
-    padding: 15px;
-    border: 5px solid black;
+    padding: 100px;
+    border: 1px solid black;
     h2{
         margin-bottom: 5px;
     }
     input{
         width: 500px;
         height: 50px;
-    }
-    button{
-        margin-left: auto;
     }
 }

@@ -1,10 +1,8 @@
-{
-  "usuarios": [
-    {
-      "usuario": "debTeixeira@yahoo.com",
-      "senha": "memoria1964",
-      "dados": {
-        "id": "278",
+  {
+    "user": {
+      "debTeixeira@yahoo.com": {
+        "id":"278",
+        "senha": "memoria1964",
         "nome": "Debora Christina Teixeira Pinheiro",
         "foto": "perfilDebora.jpg",
         "plano": "hapvida",
@@ -13,7 +11,7 @@
           "01/11/2023": {
             "local": "Hospital ABC",
             "descricao": "Consulta com Dr. Silva, exame de sangue",
-            "resultado": "Resultados disponíveis no SanaVita"
+            "resultado": "Resultados disponiveis no SanaVita"
           },
           "15/11/2023": {
             "local": "Clínica Radiológica XYZ",
@@ -26,19 +24,17 @@
             "receita": "Nova receita médica disponível para retirada"
           }
         },
-        "resultados": {
-          "01/12/2023": {
-            "nome": "Hemograma",
-            "link": "hemoDeb.pdf"
-          }
+        "resultados":{
+            "01/12/2023":{
+                "nome":"Hemograma",
+                "link":"hemoDeb.pdf"
+            }
         }
-      }
+
     },
-    {
-      "usuario": "marialurdes@gmail.com",
-      "senha": "pgomez2000",
-      "dados": {
+      "marialurdes@gmail.com": {
         "id": "379",
+        "senha": "pgomez2000",
         "nome": "Maria Lurdes da Silva",
         "foto": "perfilLurdes.jpg",
         "plano": "hapvida",
@@ -51,30 +47,23 @@
           }
         },
         "resultados": {
-          "nda": "nada disponível no momento"
+            "nda" : "nada disponivel no momento"
         }
-      }
-    },
-    {
-      "usuario": "rodrigoPereira@saoLuis.com.br",
-      "senha": "DRrodripe",
-      "dados": {
-        "id": "778",
-        "nome": "Rodrigo Pereira de Souza",
-        "foto": "perfilRodrigo.jpg",
+      },
+      "rodrigoPereira@saoLuis.com.br":{
+        "id":"778",
+        "senha": "DRrodripe",
+        "nome" : "Rodrigo Pereira de Souza",
+        "foto" : "perfilRodrigo.jpg",
         "status": "d",
         "pacientes": {
-          "25/11/2023": "278"
+          "25/11/2023":"278"
         }
-      }
-    },
-    {
-      "usuario": "hospitalSluis@saoLuis.com.br",
-      "senha": "admin123",  
-      "dados": {
+      },
+      "hospitalSluis@saoLuis.com.br":{
+        "senha":"admin123",
         "foto": "hospital.png",
-        "status": "h"
+        "status":"h"
       }
     }
-  ]
-}
+  }
