@@ -1,0 +1,19 @@
+.central-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login {
+  padding: 15px;
+  border: 5px solid black;
+}
+.login h2 {
+  margin-bottom: 5px;
+}
+.login input {
+  width: 500px;
+  height: 50px;
+}
+.login button {
+  margin-left: auto;
+}/*# sourceMappingURL=Login.style.css.map */
