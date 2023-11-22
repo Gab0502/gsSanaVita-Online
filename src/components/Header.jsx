@@ -34,7 +34,6 @@ function Header() {
 
         {usuarioLogado ? (
           <div style={{ display: 'flex' }}>
-            <p>Olá {usuarioLogado.nome}</p>
             <div className="sec-center">
               <input className="dropdown" type="checkbox" id="dropdown" name="dropdown" />
               <label className="for-dropdown" htmlFor="dropdown">

@@ -1,5 +1,42 @@
 main{
     margin: 15px;
-    padding: 25px;
     border-radius: 50px;
+    min-height: 100vh;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    img{
+        border-radius: 50%;
+        
+        width: 255px;
+        height: 255px;
+    }
+
+}
+.perfilInfos{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    .perfilNome{
+        font-size: 55px;
+        margin-left: 25px;
+    }
+
+}
+.subtittle{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.personalInfos{
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

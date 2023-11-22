@@ -24,19 +24,29 @@ function Perfil() {
   return (
     <>
       <main className='bg-cinza'>
+      
         {usuarioLogado ? (
-          <div className='profile'>
-            <h2>Olá {usuarioLogado.nome}</h2>
-            <img src={`src/assets/${userIcon}`} alt="User Profile" />
+          <section className='profile'>
+            <section className='perfilInfos bg-verde'>
+                
+            <img src={`/assets/${userIcon}`} alt="User Profile" className='ProfilePicture'/>
+            <h2 className='perfilNome texto-laranjaEscuro'>{usuarioLogado?.nome}</h2>
+            </section>
+            <h2 className='subtittle'>Informações de usuario</h2>
+            <div className='personalInfos bg-branco'>
             <h3>Email: {usuarioLogado.email}</h3>
             <h3>Data de Nascimento: {usuarioLogado.dataNascimento}</h3>
             <h3>Gênero: {usuarioLogado.genero}</h3>
+            <h3>Plano de saude: {usuarioLogado.plano}</h3>
+            </div>
+            
             {usuarioLogado.status === "p" ? (
               // Renderizar informações para pacientes
               <div>
-                <h3>Status: Paciente</h3>
+                
                 {Object.keys(usuarioLogado.visitas).length > 0 ? (
                   <>
+                  
                     <h3>Visitas:</h3>
                     <ul>
                       {Object.entries(usuarioLogado.visitas).map(([data, visita]) => (
@@ -83,7 +93,7 @@ function Perfil() {
                 <h3>Status: Desconhecido</h3>
               </div>
             )}
-          </div>
+          </section>
         ) : (
           // Caso não haja usuário logado, redirecione para a página de login
           <p>Usuário não autenticado. Redirecionando para a página de login...</p>
