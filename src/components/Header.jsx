@@ -29,7 +29,7 @@ function Header() {
     <>
       <header className="navbar">
         <Link to="/">
-          <img src="src\assets\SANA.png" alt="" className="brand" />
+          <img src="\assets\SANA.png" alt="" className="brand" />
         </Link>
 
         {usuarioLogado ? (
@@ -38,7 +38,7 @@ function Header() {
             <div className="sec-center">
               <input className="dropdown" type="checkbox" id="dropdown" name="dropdown" />
               <label className="for-dropdown" htmlFor="dropdown">
-                <img src={`src/assets/${userIcon}`} className="icon" alt="" />
+                <img src={`/assets/${userIcon}`} className="icon" alt="" />
                 <i className="uil uil-arrow-down"></i>
               </label>
               <div className="section-dropdown">
