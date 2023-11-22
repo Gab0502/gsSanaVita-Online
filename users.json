@@ -1,72 +1,72 @@
-  {
-    "user": {
-      "debTeixeira@yahoo.com": {
-        "id":"278",
-        "senha": "memoria1964",
-        "nome": "Debora Christina Teixeira Pinheiro",
-        "foto": "perfilDebora.jpg",
-        "email": "debTeixeira@yahoo.com",
-        "plano": "hapvida",
-        "status": "p",
-        "visitas": {
-          "01/11/2023": {
-            "local": "Hospital ABC",
-            "descricao": "Consulta com Dr. Silva, exame de sangue",
-            "resultado": "Resultados disponiveis no SanaVita"
-          },
-          "15/11/2023": {
-            "local": "Clínica Radiológica XYZ",
-            "descricao": "Realização de exame de ressonância magnética",
-            "resultado": "Resultados disponíveis em 3 dias"
-          },
-          "05/10/2023": {
-            "local": "Consultório Dr. Pereira",
-            "descricao": "Acompanhamento mensal para controle de pressão",
-            "receita": "Nova receita médica disponível para retirada"
-          }
+{
+  "user": {
+    "debTeixeira@yahoo.com": {
+      "id":"278",
+      "senha": "memoria1964",
+      "nome": "Debora Christina Teixeira Pinheiro",
+      "foto": "perfilDebora.jpg",
+      "email": "debTeixeira@yahoo.com",
+      "plano": "hapvida",
+      "status": "p",
+      "dataNascimento": "15/05/1964",
+      "genero": "Feminino",
+      "visitas": {
+        "01/11/2023": {
+          "local": "Hospital ABC",
+          "descricao": "Consulta com Dr. Silva, exame de sangue",
+          "resultado": "Resultados disponíveis no SanaVita"
         },
-        "resultados":{
-            "01/12/2023":{
-                "nome":"Hemograma",
-                "link":"hemoDeb.pdf"
-            }
+        "15/11/2023": {
+          "local": "Clínica Radiológica XYZ",
+          "descricao": "Realização de exame de ressonância magnética",
+          "resultado": "Resultados disponíveis em 3 dias"
+        },
+        "05/10/2023": {
+          "local": "Consultório Dr. Pereira",
+          "descricao": "Acompanhamento mensal para controle de pressão",
+          "receita": "Nova receita médica disponível para retirada"
         }
-
+      },
+      "resultados": {
+        "01/12/2023": {
+          "nome":"Hemograma",
+          "link":"hemoDeb.pdf"
+        }
+      }
     },
-      "marialurdes@gmail.com": {
-        "id": "379",
-        "senha": "pgomez2000",
-        "nome": "Maria Lurdes da Silva",
-        "foto": "perfilLurdes.jpg",
-        "email": "marialurdes@gmail.com",
-        "plano": "hapvida",
-        "status": "p",
-        "visitas": {
-          "10/12/2023": {
-            "local": "Clínica Saúde Total",
-            "descricao": "Consulta de rotina com Dr. Souza",
-            "resultado": "Aguardando análise médica"
-          }
-        },
-        "resultados": {
-            "nda" : "nada disponivel no momento"
+    "marialurdes@gmail.com": {
+      "id": "379",
+      "senha": "pgomez2000",
+      "nome": "Maria Lurdes da Silva",
+      "foto": "perfilLurdes.jpg",
+      "email": "marialurdes@gmail.com",
+      "plano": "hapvida",
+      "status": "p",
+      "dataNascimento": "20/09/1982",
+      "genero": "Feminino",
+      "visitas": {
+        "10/12/2023": {
+          "local": "Clínica Saúde Total",
+          "descricao": "Consulta de rotina com Dr. Souza",
+          "resultado": "Aguardando análise médica"
         }
       },
-      "rodrigoPereira@saoLuis.com.br":{
-        "id":"778",
-        "senha": "DRrodripe",
-        "nome" : "Rodrigo Pereira de Souza",
-        "foto" : "perfilRodrigo.jpg",
-        "email" : "rodrigoPereira@saoLuis.com.br",
-        "status": "d",
-        "pacientes": {
-          "25/11/2023":"278"
-        }
-      },
-      "hospitalSluis@saoLuis.com.br":{
-        "senha":"admin123",
-        "foto": "hospital.png",
-        "status":"h"
+      "resultados": {
+        
+      }
+    },
+    "rodrigoPereira@saoLuis.com.br":{
+      "id":"778",
+      "senha": "DRrodripe",
+      "nome" : "Rodrigo Pereira de Souza",
+      "foto" : "perfilRodrigo.jpg",
+      "email" : "rodrigoPereira@saoLuis.com.br",
+      "status": "d",
+      "dataNascimento": "10/03/1970",
+      "genero": "Masculino",
+      "pacientes": {
+        "25/11/2023":"278"
       }
     }
   }
+}

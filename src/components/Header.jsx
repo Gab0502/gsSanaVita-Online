@@ -42,9 +42,8 @@ function Header() {
                 <i className="uil uil-arrow-down"></i>
               </label>
               <div className="section-dropdown">
-                <a href="#">Dropdown Link <i className="uil uil-arrow-right"></i></a>
-                <a href="#">Dropdown Link <i className="uil uil-arrow-right"></i></a>
-                <a href='#' onClick={logout}>Log Out <i className="uil uil-arrow-right"></i></a>
+                <a href="#"><Link to="/perfil">Perfil</Link> </a>
+                <a href='#' onClick={logout}>Log Out</a>
               </div>
             </div>
           </div>
