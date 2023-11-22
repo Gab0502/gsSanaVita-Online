@@ -6,6 +6,7 @@ main{
 .profile{
     display: flex;
     flex-direction: column;
+    margin: 10px;
     img{
         border-radius: 50%;
         
@@ -35,8 +36,56 @@ main{
 .personalInfos{
     padding: 25px;
     border-radius: 25px;
-    margin: 25px;
+    margin: 10px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    h3{
+        margin: 10px;
+    }
+}
+ul{
+    list-style: none
+}
+/* Adicione essas classes no seu arquivo perfil.style.css */
+.visible {
+    max-height: 1000px; /* Um valor maior que a altura máxima que você espera */
+    transition: max-height 0.5s ease-out; /* Ajuste a duração da animação conforme necessário */
+  }
+  
+  .hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in;
+  }
+
+.btn{
+    font-size: 25px;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+.box{
+    margin-bottom: 25px;
+}
+.historico{
+    display: flex;
+}
+#inside{
+    border-radius: 25px;
+    padding: 25px;
+    .pdf{
+        color: red;
+    }
+}
+.historico{
+    border-radius: 25px;
+    margin: 25px;
+    background-color: #ffffff;
+    h2{
+        margin: 10px;
+    }
 }
