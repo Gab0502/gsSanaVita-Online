@@ -8,9 +8,9 @@ function Home() {
         <main className="">
             <section className="flex-generic">
                 <section className="projeto">
-                    <img src="/assets/stockExam.jpg"></img>
+                    <img src="\assets\stockExam.jpg"></img>
                     <div className="row">
-                        <img src="src\assets\SANA2.png" alt="" class="imgName"/>
+                        <img src="\src\assets\SANA2.png" alt="" class="imgName"/>
                         <p className="text">Centralize sua saúde digitalmente. Simplifique e personalize a gestão de exames e históricos médicos em uma plataforma inovadora, promovendo cuidados personalizados e eficientes.</p>
                     </div>
                     <button>Mais infos</button>
