@@ -37,12 +37,11 @@ function Login() {
           setTimeout(() => {
           }, 3000);
         } else {
-          setTimeout(() => {
+          alert("Usuario ou senha incorretos")
             setUsuarios({
               usuario: "",
               senha: "",
             });
-          }, 3000);
         }
       } else {
         setUsuarios({

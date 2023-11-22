@@ -5,6 +5,7 @@
         "senha": "memoria1964",
         "nome": "Debora Christina Teixeira Pinheiro",
         "foto": "perfilDebora.jpg",
+        "email": "debTeixeira@yahoo.com",
         "plano": "hapvida",
         "status": "p",
         "visitas": {
@@ -37,6 +38,7 @@
         "senha": "pgomez2000",
         "nome": "Maria Lurdes da Silva",
         "foto": "perfilLurdes.jpg",
+        "email": "marialurdes@gmail.com",
         "plano": "hapvida",
         "status": "p",
         "visitas": {
@@ -55,6 +57,7 @@
         "senha": "DRrodripe",
         "nome" : "Rodrigo Pereira de Souza",
         "foto" : "perfilRodrigo.jpg",
+        "email" : "rodrigoPereira@saoLuis.com.br",
         "status": "d",
         "pacientes": {
           "25/11/2023":"278"
