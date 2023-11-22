@@ -35,7 +35,7 @@ function Login() {
           console.log("user",usuarioLogado)
   
           setTimeout(() => {
-            window.location="/perfil";}, 3000);
+            window.location="/";}, 1000);
         } else {
           alert("Usuario ou senha incorretos")
             setUsuarios({
