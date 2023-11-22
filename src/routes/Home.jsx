@@ -10,7 +10,7 @@ function Home() {
                 <section className="projeto">
                     <img src="\assets\stockExam.jpg"></img>
                     <div className="row">
-                        <img src="\src\assets\SANA2.png" alt="" class="imgName"/>
+                        <img src="\assets\SANA2.png" alt="" class="imgName"/>
                         <p className="text">Centralize sua saúde digitalmente. Simplifique e personalize a gestão de exames e históricos médicos em uma plataforma inovadora, promovendo cuidados personalizados e eficientes.</p>
                     </div>
                     <button>Mais infos</button>
@@ -35,7 +35,7 @@ A SanaVita simplificará a gestão da saúde, centralizando resultados de exames
             <h1>VANTAGENS</h1>
             <section className="row">
                 <article className="row">
-                    <img src="src\assets\Online Doctor-rafiki.svg" alt="" className="imgSm"/>
+                    <img src="\assets\Online Doctor-rafiki.svg" alt="" className="imgSm"/>
                     <div className="card">
                         <h1>01</h1>
                         <h3>Resolvendo papelada</h3>
@@ -43,7 +43,7 @@ A SanaVita simplificará a gestão da saúde, centralizando resultados de exames
                     </div>
                 </article>
                 <article className="row">
-                    <img src="src\assets\Medicine-bro.svg" alt="" className="imgSm"/>
+                    <img src="\assets\Medicine-bro.svg" alt="" className="imgSm"/>
                     <div className="card">
                         <h1>02</h1>
                         <h3>Simplificando a medicina</h3>
@@ -51,7 +51,7 @@ A SanaVita simplificará a gestão da saúde, centralizando resultados de exames
                     </div>
                 </article>
                 <article className="row">
-                    <img src="src\assets\Medical prescription-rafiki.svg" alt="" className="imgSm"/>
+                    <img src="\assets\Medical prescription-rafiki.svg" alt="" className="imgSm"/>
                     <div className="card">
                         <h1>03</h1>
                         <h3>Historico de visitas</h3>
