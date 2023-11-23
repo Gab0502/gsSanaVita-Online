@@ -34,7 +34,6 @@
 }
 .row{
     display: flex;
-    // aumentar tamanho de fonte
     h1{
         margin: 10px;
         width: 20%;
@@ -52,4 +51,19 @@
     
     margin-left: 0;
     padding: 15px;
+}
+@media screen and (max-width: 975px) {
+    .flex-generic{
+        flex-wrap: wrap;
+    }
+    .projeto{
+        width: 100%;
+    }
+    .infos{
+        width: 100%;
+    }
+    .row{
+        align-items: center;
+        flex-direction: column;
+    }
 }
