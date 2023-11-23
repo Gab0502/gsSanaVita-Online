@@ -57,13 +57,13 @@ function Login() {
 
   return (
     <>
-      <main className=''>
+      <main>
         <section className='central-box'>
           <img src="\assets\SANA.png" id="foto" alt="User Profile" />
-          <div className='login'>
+          <div className='login bg-azul'>
             <form onSubmit={handleSubmit}>
               <div>
-                <h2>Login</h2>
+                <h2 className='texto-laranjaEscuro'>Login</h2>
                 <input
                   type="text"
                   name="usuario"
@@ -74,7 +74,7 @@ function Login() {
               </div>
 
               <div>
-                <h2>Senha</h2>
+                <h2 className='texto-laranjaEscuro'>Senha</h2>
                 <input
                   type="password"
                   name="senha"
@@ -84,7 +84,7 @@ function Login() {
                 />
               </div>
               <img src="" alt="" />
-              <button type="submit">Logar</button>
+              <button type="submit" className='myButton'>Logar</button>
             </form>
           </div>
         </section>

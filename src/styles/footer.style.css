@@ -1,8 +1,24 @@
 footer {
   height: 25px;
+  display: flex;
+  flex-direction: column;
+}
+footer img {
+  width: 100px;
+  margin: 5px;
+  border-radius: 15px;
 }
 
 .row {
   display: flex;
   justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.direitos {
+  margin-left: auto;
 }/*# sourceMappingURL=footer.style.css.map */

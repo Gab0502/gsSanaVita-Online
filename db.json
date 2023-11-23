@@ -34,27 +34,6 @@
         }
       }
     },
-    "marialurdes@gmail.com": {
-      "id": "379",
-      "senha": "pgomez2000",
-      "nome": "Maria Lurdes da Silva",
-      "foto": "perfilLurdes.jpg",
-      "email": "marialurdes@gmail.com",
-      "plano": "hapvida",
-      "status": "p",
-      "dataNascimento": "20/09/1982",
-      "genero": "Feminino",
-      "visitas": {
-        "10/12/2023": {
-          "local": "Clínica Saúde Total",
-          "descricao": "Consulta de rotina com Dr. Souza",
-          "resultado": "Aguardando análise médica"
-        }
-      },
-      "resultados": {
-        
-      }
-    },
     "rodrigoPereira@saoLuis.com.br":{
       "id":"778",
       "senha": "DRrodripe",
