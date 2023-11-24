@@ -22,7 +22,7 @@ function Header() {
   const logout =()=>{
     sessionStorage.removeItem("usuarioLogado");
     console.log("saindo")
-    window.location="/login"
+    window.location="/"
   }
 
   return (
